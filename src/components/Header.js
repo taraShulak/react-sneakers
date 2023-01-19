@@ -9,7 +9,7 @@ function Header(props) {
           <Link to='/'>
             <div className="header__left">
             <div className="header__logo">
-              <img src="/img/image 4.png" alt="logo"/>
+              <img src="./img/image 4.png" alt="logo"/>
             </div>
             <div className="header__content">
               <h1 className="header__title">react sneakers</h1>
@@ -20,17 +20,17 @@ function Header(props) {
           <div className="header__right">
             <div className="header__basket">
               <div className="header__basket__img">
-                <img onClick={props.onClickBasket} src="/img/basket.svg" alt="basket"/>
+                <img onClick={props.onClickBasket} src="./img/basket.svg" alt="basket"/>
                 <p className="header__basket__price">{totalPrice} $</p>
               </div>
               <div className="header__heart">
                 <Link to='/liked'>
-                  <img src="/img/heart.svg" alt="like"/>
+                  <img src="img/heart.svg" alt="like"/>
                 </Link>  
               </div>
               <Link to='/orders'>
                 <div className="header__user">
-                  <img src="/img/user.svg" alt="user"/>
+                  <img src="img/user.svg" alt="user"/>
                 </div>
               </Link>
             </div>
