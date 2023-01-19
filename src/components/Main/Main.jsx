@@ -10,9 +10,9 @@ function Main(items, searchName, cardsBasket, setSearchName,
       <div className='main__first-block'>
         <h1 className="main__title">{items.searchName ? `find : "${items.searchName}"` : 'all sneakers'}</h1>
         <div className='main__search'>
-          <img className='main__search_button' src='./img/search.svg' />
+          <img className='main__search_button' src='/public/img/search.svg' />
           {searchName && (<div onClick={()=> items.setSearchName('')} className='search__close_criss'>
-            <img  src="./img/criss.svg" alt="del"/>
+            <img  src="public/img/criss.svg" alt="del"/>
           </div>)}
           <input onChange={items.onChangeSearchInput} value={items.searchName} placeholder='...search' className='main__search-input'/>
         </div>
