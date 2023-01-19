@@ -24,11 +24,11 @@ function Header(props) {
                 <p className="header__basket__price">{totalPrice} $</p>
               </div>
               <div className="header__heart">
-                <Link to='liked'>
+                <Link to='/liked'>
                   <img src="img/heart.svg" alt="like"/>
                 </Link>  
               </div>
-              <Link to='orders'>
+              <Link to='/orders'>
                 <div className="header__user">
                   <img src="img/user.svg" alt="user"/>
                 </div>

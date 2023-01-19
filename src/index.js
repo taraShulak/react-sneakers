@@ -17,7 +17,7 @@ import BasketOrderDone from './components/BasketOrderDone';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="*" element={<App />}>
+    <Route path="react-sneakers" element={<App />}>
     </Route>
   )
 );
