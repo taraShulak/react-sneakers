@@ -26,7 +26,7 @@ function Card ({index, liked = false, added = false, male, name, price, img, onC
     <div className={style.box__item}>
               <div className={style.box__image}>
                 {onClickLike && <div onClick={onClickLiked} className={style.box_like}>
-                  <img  src={isLiked ? "/img/heart_liked.svg" : "/img/heart-box.svg" }alt="heart-box"/>
+                  <img  src={isLiked ? "./img/heart_liked.svg" : "./img/heart-box.svg" }alt="heart-box"/>
                 </div>}
                 <img className={style.box_main_img} src={img} alt="photo sneakers"/>
               </div>
@@ -42,7 +42,7 @@ function Card ({index, liked = false, added = false, male, name, price, img, onC
                 { onClickAdd && <div onClick={onClickAdded} className={isAdded 
                   ? `${style.box__price_plus} ${style.plus__background}` 
                   : `${style.box__price_plus}`} >
-                  <img src={isAdded ? "/img/checked.svg" : "/img/plus.svg" } alt="add"/>
+                  <img src={isAdded ? "./img/checked.svg" : "./img/plus.svg" } alt="add"/>
                 </div>}
               </div>
             </div>

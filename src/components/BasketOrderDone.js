@@ -11,7 +11,7 @@ function BasketOrderDone() {
       <div className='bod__main'>  
           <div className="bod__box">
           <div className='bod__image'>
-            <img src='/img/order-done.jpeg' alt="order done"/>
+            <img src='./img/order-done.jpeg' alt="order done"/>
           </div>
           <h2 className='be__name'>The order has been placed</h2>
           <h3 className='be__text'>Your order #18 will be sent to courier delivery soon</h3>

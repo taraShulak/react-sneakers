@@ -40,7 +40,7 @@ function Basket({onRemove}) {
           <div className={style.basket__header}>
             <h1 className={style.basket__title}>Basket</h1>
             <div onClick={closeBasket} className={style.basket__close_criss}>
-              <img  src="/img/criss.svg" alt="del"/>
+              <img  src="./img/criss.svg" alt="del"/>
             </div>
           </div>
           { isOrderCompleted ? <BasketOrderDone /> 
@@ -59,7 +59,7 @@ function Basket({onRemove}) {
                  <div className={style.basket__price}>{card.price} $</div>
                </div>
                <div onClick={ ()=> onRemove(card.index)} className={style.basket__price_criss}>
-                 <img src="/img/criss.svg" alt="del"/>
+                 <img src="./img/criss.svg" alt="del"/>
                </div>
               </div>
             ))}
@@ -69,7 +69,7 @@ function Basket({onRemove}) {
             <div className='be__main'>  
               <div className="be__box">
                 <div className='basket__image'>
-                  <img src='/img/empty-basket.jpeg' alt="basket is empty"/>
+                  <img src='./img/empty-basket.jpeg' alt="basket is empty"/>
                 </div>
                 <h2 className='be__name'>The basket is empty</h2>
                 <h3 className='be__text'>add at least one pair of sneakers to complete your order</h3>
