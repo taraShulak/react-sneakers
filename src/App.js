@@ -163,16 +163,16 @@ function App() {
       <Header onClickBasket={onHendleBasket}/>
       
       <Routes>
-        <Route path='/liked' element={ <Bookmark/>}></Route>
+        <Route path='liked' element={ <Bookmark/>}></Route>
       </Routes>
       
       <Routes>
-        <Route path='/orders' element={ < Mybuy/>}></Route>
+        <Route path='orders' element={ < Mybuy/>}></Route>
       </Routes>
 
       <Routes>
         <Route 
-          path='/' 
+          path='' 
           element={ 
           <Main
             items={items}  
