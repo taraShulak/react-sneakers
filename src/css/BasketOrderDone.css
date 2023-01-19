@@ -1,0 +1,30 @@
+.bod__box {
+  padding-top: 20vh;
+}
+
+.bod__main {
+  text-align: center;
+}
+.bod__image {
+  width: 83px;
+  height: 120px;
+  margin: 0 auto 30px;
+}
+.bod__image img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.bf-btn {
+  width: 325px;
+  height: 55px;
+  background: #9DD558;
+  border-radius: 18px;
+  margin: 10px auto;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}

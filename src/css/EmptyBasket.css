@@ -1,0 +1,46 @@
+.basket__empty {}
+.be__main {}
+.be__title{}
+.be__box {
+  padding-top: 20vh;
+}
+.basket__image{
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 20px;
+}
+.basket__image img {
+  object-fit: cover;
+}
+.be__name {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  text-align: center;
+}
+.be__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.4;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.be-btn{
+  width: 325px;
+  height: 55px;
+  background: #9DD558;
+  border-radius: 18px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+ 

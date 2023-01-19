@@ -1,13 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
 import './index.css';
 import App from './App';
+import Mybuy from './components/Mybuy';
+import Bookmark from './components/Bookmark';
+import Basket from './components/Basket/Basket';
+import EmptyBasket from './components/EmptyBasket';
 import reportWebVitals from './reportWebVitals';
+import BasketOrderDone from './components/BasketOrderDone';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="*" element={<App />}>
+    </Route>
+  )
+);
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

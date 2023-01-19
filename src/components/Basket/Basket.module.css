@@ -1,0 +1,133 @@
+.basket {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 385px;
+  height: 100vh;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 20;
+  background-color: #fff;
+}
+
+.basket__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.basket__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.basket__box {
+  overflow: auto;
+  height: 60vh;
+}
+.basket__item {
+  max-width: 325px;
+  height: 119px;
+  padding: 20px;
+  background: #FFFFFF;
+  border: 1px solid #F3F3F3;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.basket__item:hover {
+  box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.45);
+  transform: translateY( -10px);
+}
+
+.basket__image {
+ width: 70px;
+ height: 70px;
+}
+.basket_main_img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.basket__item_title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+.basket__price {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000; 
+}
+.basket__price_criss,
+.basket__close_criss {
+  width: 32px;
+  height: 32px;
+  background: #FFFFFF;
+  border: 1px solid #F2F2F2;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  cursor: pointer
+}
+.basket__price_criss:hover,
+.basket__close_criss:hover {
+  background-color: rgb(220, 87, 87);
+}
+
+.basket__footer {
+
+}
+.bf__summ,
+.bf__tax {
+  display: flex;  
+  margin-bottom: 20px;
+}
+.bf__summ_title{}
+.bf__summ_number{}
+.bf__tax{
+}
+.bf__tax_title,
+.bf__summ_title {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+.bf__rectangle {
+  flex: 1 1 auto;  
+  border-bottom: 1px dashed #5c5959;
+  margin: 0 5px;
+}
+.bf__tax_number,
+.bf__summ_number{
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+.bf_btn{
+  width: 325px;
+  height: 55px;
+  background: #9DD558;
+  border-radius: 18px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.bf_btn:hover {
+  background-color: #39511b;
+}
